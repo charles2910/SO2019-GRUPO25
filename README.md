@@ -1,1 +1,3 @@
 # SO2019-GRUPO25
+Os códigos foram escritos utilizando a biblioteca math.h, por isso todos os códigos fontes devem ser compilados utilizando a opção -lm. Além disso, os códigos feitos para utilizar mais de um thread de execução devem ser compilados com a opção -pthread porque utilizam a biblioteca pthread.h.
+    O método de Gauss-Legendre possui um de seus parâmetros um termo que cresce da forma 2n, de modo que, para não o limite da variável long double não ser excedido, devemos calcular o algoritmo até a iteração número 16.384. Dessa forma, todas as análises comparando seu tempo de execução com o de outros algoritmos será feito com os outros algoritmos também limitados à iteração 16.384.
