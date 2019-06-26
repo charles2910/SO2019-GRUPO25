@@ -63,7 +63,10 @@ void *thread2 (void *arg) {
 	for (; t < N_ITER; t++) {
 		pthread_mutex_lock(&count_mutex_t);
 
-		tn1 = tn - pn * (an - an1) * (an - an1);
+		if (t < 1)
+			tn1 = tn - pn * (an - an1) * (an - an1);
+		else
+			tn1 = tn - pn1 * (an - an1) * (an - an1);
 
 		pthread_mutex_lock(&count_mutex_ppi);
 		count_ppi++;
