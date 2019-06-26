@@ -1,0 +1,40 @@
+Phoronix Test Suite v8.8.1
+System Information
+
+
+  PROCESSOR:          Intel Core i5-7200U @ 2.50GHz
+    Core Count:       2                                        
+    Thread Count:     4                                        
+    Extensions:       SSE 4.2 + AVX2 + AVX + RDRAND + FSGSBASE 
+    Cache Size:       3072 KB                                  
+    Microcode:        0x8e                                     
+    Scaling Driver:   intel_pstate powersave                   
+
+  GRAPHICS:           Intel HD 620
+    Frequency:        1000MHz          
+    Screen:           1366x768         
+
+  MOTHERBOARD:        LENOVO 20H2S0RA00
+    BIOS Version:     R0DET95W 1.95                                                 
+    Chipset:          Intel Xeon E3-1200 v6/7th                                     
+    Audio:            Conexant CX20753/4                                            
+    Network:          Realtek RTL8111/8168/8411 + Qualcomm Atheros QCA9377 802.11ac 
+
+  MEMORY:             8192MB
+
+  DISK:               240GB Western Digital WDS240G2G0A-
+    File-System:      ext4             
+    Mount Options:    relatime rw      
+    Disk Scheduler:   MQ-DEADLINE      
+
+  OPERATING SYSTEM:   Debian 10
+    Kernel:           4.19.0-5-amd64 (x86_64)                                                                                     
+    Desktop:          GNOME Shell 3.30.2                                                                                          
+    Display Server:   X Server + Wayland                                                                                          
+    Compiler:         GCC 8.3.0                                                                                                   
+    Security:         l1tf: Mitigation of PTE Inversion; VMX: conditional cache flushes SMT vulnerable                            
+                      + mds: Vulnerable: Clear buffers attempted no microcode; SMT vulnerable                                     
+                      + meltdown: Mitigation of PTI                                                                               
+                      + spec_store_bypass: Mitigation of SSB disabled via prctl and seccomp                                       
+                      + spectre_v1: Mitigation of __user pointer sanitization                                                     
+                      + spectre_v2: Mitigation of Full generic retpoline IBPB: conditional IBRS_FW STIBP: conditional RSB filling
